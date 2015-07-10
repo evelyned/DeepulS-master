@@ -1,0 +1,116 @@
+	|
+	| Cloud Toolkit N6 RC1
+	| -----------------------------------
+	|
+	|
+	| Have a nice coding!
+	| - TIMO SALOMÄKI aka DudeDesign (http://tsalomaki.110mb.com)
+	|    * Cloud Button
+	|    * Cloud ButtonListControl
+	|    * Cloud CaptionBUtton
+	|    * Cloud Chat
+	|    * Cloud Clock
+	|    * Cloud CheckBoxButton
+	|    * Cloud DigitalClock
+	|    * Cloud Form
+	|    * Cloud FormCaptionButton
+	|    * Cloud Group
+	|    * Cloud GroupBoxContainer
+	|    * Cloud Header
+	|    * Cloudifier
+	|    * Cloud Label
+	|    * Cloud ListBox
+	|    * Cloud PictureBox
+	|    * Cloud PlayerControl
+	|    * Cloud ProgressBarN6
+	|    * Cloud RadioButton
+	|    * Cloud SplitButton
+	|    * Cloud StarRating
+	|    * Cloud StartMenu
+	|    * Cloud StartMenuButton
+	|    * Cloud StartMenuSeven
+	|    * Cloud TaskBarItem
+	|    * Cloud TaskBarItemSeven
+	|    * Cloud TextBox
+	|    * Cloud Ticker
+	|    * Cloud TrackBar
+	|    * Cloud OriginalIconHolder
+	|    * Cloud Slider
+	|    * Cloud W7Button
+	|    * Cloud ImageEditor
+	|
+	| - Cameron D
+	|    * Cloud ProgressBar
+	|    * Cloud NotificationWindow
+	|    * Cloud CheckBox
+	|  . .
+	|  | |
+	|  \O/  _____________________
+	|   |  |  CLOUD TOOLKIT.NET  |    ___   ___   ____   _______
+	|   |  |version 0.6.0RC1 U3  |   /  /| /  /| /    \ /  _____|
+	|  /\  `--------| |----------´  /  / //  / //  /| |||  |____ 
+	|__\_\__________| |____________/  |_|/  / //  /_| |||   ____|
+	|  ´  ` ________________         ______/ //_______/||  |____
+	|     /|______________/  /\ \  _______|/ |_______|/ |_______|  
+	|____/ /             /  /_| | |                    
+	|____|/             /_______/ | DESIGN (2009)
+	|                   |_______|/  - Contact tsalomaki@gmail.com for 
+	|                                 things regarding Cloud Toolkit.Net
+	|                                 or visit http://www.cloud-toolkit.tk
+	|                                 or http://sourceforge.net/projects/cloudtoolkitnet
+	|                                   
+	|                                 ___________________________________________  
+	|                                |                                           |
+	|                                |   "Only the imagination is the limit..."  |
+	|____________________________________________________________________________|
+	
+	Changes in Revision-5 (unstable) of Cloud Toolkit N6 alpha:
+	
+	*FIX* Cloud StartMenuButton's CenterText property works properly
+	*FIX* Cloud StartMenuButton's TextDistanceFromBorder property is added
+	*FIX* Cloud StarRatingControl now reflects to changes of selected star count
+	*FIX* Cloud TrackBar's figure size can now be changed (didn't work before)
+	*FIX* Cloud ButtonListControl now accepts Cloud StartMenuButton as well as Cloud Button
+	*FIX* Cloud Player now fires events like Click, DoubleClick etc.
+	*FIX* Cloud StartMenuButton's click event is only fired when the left button of the mouse is pressed
+	*CHANGE* Cloud StartMenuButton's TextImageRelation can be changed
+	*CHANGE* Cloud StartMenuButton's opacity can be changed
+	*CHANGE* Cloud StartMenu's opacity can be changed
+	*CHANGE* Cloud StartMenuButton's corner radius is now changeable
+	*CHANGE* Cloud StartMenuButton's glow can now be on top of the icon or behind it
+	*FEATURE* Cloud DesktopButton (Control which mimics the button control in Vista's desktop)
+	*FEATURE* Cloud Form now uses background image property (The opacity of the background image can be changed)
+	
+	Changes in Cloud Toolkit N6 Release Candidate 1:
+	
+	*FIX* Cloud Progressbar N6's problem fixed, where it modifies the text of the form when the control is placed on the form
+	*FIX* Cloud Progressbar now draws a little line after the filled area
+	*FIX* Cloud CaptionButton is replaced with a new one so the old one is still in the control collection but it shouldn't be used
+	*FIX* Cloud Form's OriginalIconHolder's animation now works properly
+	*CHANGE* Cloud Ticker now loads the needed bitmaps from the executing assembly.
+	*CHANGE* Cloud Slider now loads the needed bitmaps from the executing assembly.
+	*FEATURE* ToolboxBitmaps for all of the controls
+	*FEATURE* W7Button has now own designer and smart tag features
+	*FEATURE* Windows 7 styled Button control introduced
+	*FEATURE* Windows 7 styled startmenu control added. It can host any Winforms control.
+	*FEATURE* New caption button control added. It's integrated with Cloud Form but can also be used as a standalone control
+	*FEATURE* Cloud DigitalClock control added. Clock time and date is shown on the control.
+	
+	Changes in Cloud Toolkit N6 Release Candidate 1 (update 1):
+	
+	*FIX* Cloud StarRating now keeps those stars selected which are defined in the design time.
+	*FEATURE* W7Button's colors and radius can now be changed through a property menu or smart tag list in design time.
+	
+	Changes in Cloud Toolkit N6 Release Candidate 1 (update 2):
+	
+	*FIX* Cloud Clock now works like a charm! It renders the needles correctly positioned and the control doesn't crash the designer.
+	*FIX* Cloud TrackBar's plus and minus marks can now be easily resized in design time
+	*FIX* Cloud PictureBox can now be fully transparent
+	*FIX* Cloud StartMenu's can now be positioned left, right, top or bottom of the form
+	*FIX* Cloud Clock redraws itself when resized
+	*CHANGE* Cloud Form's caption button's border's hover is slightly lighter
+	
+	Changes in Cloud Toolkit N6 Release Candidate 1 (update 3):
+	
+	*FEATURE* Cloud ListBox is now fully working. Working support for icons added.
+	*FEATURE* Cloud ImageEditor's development started again (from the scratch)
